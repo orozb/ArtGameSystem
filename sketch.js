@@ -8,6 +8,7 @@ function setup() {
   noCursor();
 }
 
+// it is frog
 function draw() {
   background(30);
   rect(mouseX, mouseY, 100, 100);
