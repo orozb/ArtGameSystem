@@ -1,0 +1,173 @@
+function preload(){
+  s = loadImage("star.png");
+}
+
+
+function setup() {
+  createCanvas(1400, 800);
+}
+
+
+function draw() 
+{
+  background(0, 0, 0);
+  textSize(15);
+  fill(255);
+  text("아득한 고요와 어둠 속엔", 650, 380);
+  text("많은 사람들의 이야기가 있다 ",635, 400);
+  star();
+  fireman();
+  student();
+  designer();
+  sicko();
+  baby();
+  florist();
+  politician();
+  writer();
+  homeless();
+}
+
+function star() {
+  tint(random(50, 255)); image(s, 180, 140, 10, 10); //1 fireman
+  tint(random(50, 255)); image(s, 1200, 80, 10, 10); //2 yoga instructor
+  tint(random(50, 255)); image(s, 650, 190, 10, 10); //3 designer
+  tint(random(50, 255)); image(s, 340, 400, 10, 10); //4 sicko
+  tint(random(50, 255)); image(s, 1000, 350, 10, 10); //5 baay
+  tint(random(50, 255)); image(s, 80, 550, 10, 10); //6 florist
+  tint(random(50, 255)); image(s, 1350, 400, 10, 10); //7 politician
+  tint(random(50, 255)); image(s, 450, 640, 10, 10); //8 writer
+  tint(random(50, 255)); image(s, 900, 750, 10, 10); //9 homeless
+}
+
+function fireman() {
+  if ((170<=mouseX && mouseX<=190)&&(130<=mouseY && mouseY<=150)) {
+      background(0, 0, 0);
+      star();
+    textSize(13);
+    fill(255);
+    text("Name Anold Jine   Sex Male   Birth June 19th ,1986   Bloodtype RH+B", 25, 30);
+    text("Nationality Canada   Phonenumber 604-0025674419   Address 3876 38st Street", 25, 60);
+    text("Education  École Holy Cross   Cold Lake Middle School   Minahik Waskahigan High School", 25, 90);
+    text("Job Fireman  Company Beauval Fire Dept Married", 25, 120);
+    text("( R I P † 1967 - 2016 )", 25, 150);
+  } 
+}
+
+function student() {
+  if ((1190<=mouseX && mouseX<=1210)&&(70<=mouseY && mouseY<=90)) {
+      background(0, 0, 0);
+      star();
+    textSize(13);
+    text("Name Celine  Sex Female  Birth October 8th ,1991  Bloodtype RH+O  Nationality France Religion Catholic Baptismal name Gemma", 550, 30);
+    text("Phonenumber 01-77568891  Email iiiv9999 @ gmail Facebook Instagram @iiiv999", 845, 60);
+    text("Address 39 Rue Saint-Dominique, 75007, Paris", 885, 90);
+    text("Education Collège EIB - Ecole Internationale Bilingue  Lycée Louis-le-Grand", 895, 120);
+    text("Sorbonne Université   Major Philosophy",1120,150);
+    text("Yoga certificate Kshanti Yoga Paris instructor  Singel ",1035,180);
+    text("( R I P † 1991 - 2004 )", 1225, 210);
+  } 
+}
+
+function designer(){
+  if((640<=mouseX && mouseX<=660)&&(180<=mouseY && mouseY<=200)){
+      background(0, 0, 0);
+      star();
+    textSize(13);
+    text("Name Sofia Milos  Sex Female",450,150);
+    text("Birth Febueary 21th ,1954",650,150);
+    text("Bloodtype RH-B  Nationality Greece  Religion Catholic  Baptismal name Bona",370,180);
+    text("Address Kosma Etolou      21-17, Karpenisi 361 00",500,210);
+    text("Education Catherine's British School  49th Athens High School  Anatolia High School",300,240);
+    text("Married   Nsk shoes brand desinger",400,270);
+    text("( R I P † 1954 - 2002 )",680,270);
+  }
+}
+
+function sicko(){
+  if((330<=mouseX && mouseX<=350)&&(390<=mouseY && mouseY<=410)){
+    background(0, 0, 0);
+    star();
+    textSize(13);
+    text("Name Ethan Lee  Sex Male",25,270);
+    text("Birth Demcember 9th ,1988",25,300);
+    text("Bloodtype RH+A    Nationality USA     Address 808 Main St, Neodesha, KS 66757",25,330);
+    text("Education   Dearing Elementary School    Cherryvale Senior / Middle School",25,360);
+    text("Psychiatric records    Panic disorder    Depression",25,390);
+    text("( R I P † 1988 - 2005 )",365,390);
+  }
+}
+
+function baby(){
+  if((990<=mouseX && mouseX<=1110)&&(340<=mouseY && mouseY<=360)){
+    background(0, 0, 0);
+    star();
+    textSize(13);
+    text("Name Yohan   Sex Male",840,330);
+    text("Birth June 24th , 1999  Bloodtype RH+B",730,360);
+    text("Nationailty  Israel",750,390);
+    text("( R I P † 1999 - 2007 )",890,390);
+  }
+}
+
+function florist(){
+  if((70<=mouseX && mouseX<=90)&&(540<=mouseY && mouseY<=560)){
+    background(0, 0, 0);
+    star();
+  textSize(13);
+  text("Name  Adeline d'Hermy    Sex Female",25,510);
+  text("Birth Febueary 10 , 1894  Bloodtype RH+O",25,540);
+  text("Nationality France",110,570);
+  text("Address 36-38 Rue Delambre, 75014 Paris",25,600);
+  text("Education  Marymount International School",25,630);
+  text("Married   Fleurs Mill' Roses flower shop owner",25,660);
+  text("( R I P † 1894 - 1976 )",25,690);
+  }
+}
+
+
+function politician(){
+  if((1340<=mouseX && mouseX<=1360)&&(390<=mouseY && mouseY<=410)){
+    background(0, 0, 0);
+    star();
+    textSize(13);
+    text("  Name Ruth Reker",1250,360);
+    text("Sex Female",1295,390);
+    text("Birth July 25th ,1934",1200,420);
+    text("Bloodtype RH+A",1260,450);
+    text("Nationality Germany   Address Am Stadtwald 33, 99974 Mühlhausen/Thüringen",890,480);
+    text("Education  Nikolaischule Mühlhausen   Eichsfeld School Duderstadt   ",960,510);
+    text("Heidelberg University   Major   politics",1130,540);
+    text("Political Debut   May 8th ,2000",1175,570);
+    text("( R I P † 1934 - 2010 )",1230,600);
+  }
+}
+
+
+function writer(){
+  if((440<=mouseX && mouseX<=460)&&(630<=mouseY && mouseY<=650)){
+    background(0, 0, 0);
+    star();
+   textSize(13);
+  text("Name Sirose hana  Sex Female",500,540);
+  text("Birth october 16th ,1894     Bloodtype RH+AB     Adopted",450,570);
+  text("Nationality Japen      Address 278-1 Daimon, Nagawa, Chiisagata District, Nagano 386-0601",420,600);
+  text("Education   Kunitachi Gakuen Elementary School     Fuchudaiyon Junior High School    Asao High School",400,630);
+  text("Psychiatric records    Depression",490,660);
+  text("Debut   october 19th ,1927 ",450,690);
+  text("Literary Award of the Year  May 3th , 1930",450,720);
+  text("( R I P † 1894 - 1936 )",490,750);
+  }
+}
+
+
+function homeless(){
+  if((890<=mouseX && mouseX<=910)&&(740<=mouseY && mouseY<=760)){
+    background(0, 0, 0);
+    star();
+    textSize(13);
+    text("Name Oliver  Sex male   Birth Jenuary 27th ,1892     Bloodtype RH-B",850,720);
+    text("Nationality Russia     Address   none      ( R I P † 1892 - 1929 )",930,750);
+  }
+}
+
+
